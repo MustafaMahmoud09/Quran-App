@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+  <gradient android:startColor="@color/theme_app_shape_circle" android:endColor="@color/theme_btn_shape_circle"/>
+</shape>

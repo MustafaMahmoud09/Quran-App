@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.QuranFragment">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerFragmentId"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        app:layout_constraintStart_toStartOf="@id/tabQuranId"
+        app:layout_constraintEnd_toEndOf="@id/tabQuranId"
+        app:layout_constraintTop_toBottomOf="@id/tabQuranId"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/titleQuran"
+        style="@style/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_marginTop="@dimen/margin32"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        style="@style/style_view"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/_123sdp"
+        android:backgroundTint="@color/move_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:src="@drawable/quran_logo"
+        app:layout_constraintBottom_toBottomOf="@id/view"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        android:layout_marginBottom="@dimen/_25sdp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/resume_last_surah"
+        android:textColor="@color/theme_app"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabQuranId"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="@dimen/_19sdp"
+        app:tabTextColor="@color/title_color"
+        app:tabSelectedTextColor="@color/theme_btn"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:tabTextAppearance="@style/tab"
+        />
+
+    <TextView
+        android:id="@+id/textSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/theme_app"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

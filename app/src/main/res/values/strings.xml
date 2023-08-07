@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">My Quran</string>
+    <string name="title_1">Your daily Quran reading app</string>
+    <string name="title_2">Read Quran and learn now Surahs</string>
+    <string name="get_started">Get Started</string>
+    <string name="mus_haf">Mus\'haf</string>
+    <string name="prayers">Prayers</string>
+    <string name="surah">Surah</string>
+    <string name="juz">Juz</string>
+    <string name="my_list">My list</string>
+    <string name="resume_last_surah">Resume last Surah</string>
+    <string name="basmala">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</string>
+    <string name="not_connected">The device is not connected to the internet</string>
+    <string name="dialog_add">Do you want to add this surah to your list?</string>
+    <string name="dialog_delete">Do you want to delete this surah from your list?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next_prayer">Prayer is the pillar of religion</string>
+    <string name="prayer_times">Prayer times</string>
+    <string name="light_mode">Change Mode</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="open1" />
+    <string name="close1" />
+    <string name="sound">listen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sound_text">قرآن يتلى آناء الليل وأطراف النهار</string>
+    <string name="azkar">Azkar</string>
+    <string name="title_zekr">يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا * وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا</string>
+    <string name="not_application_found">No application meets the requirements for this process</string>
+</resources>

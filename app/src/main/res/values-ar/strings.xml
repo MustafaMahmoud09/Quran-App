@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قرآني</string>
+    <string name="title_1">تطبيق قراءة القرآن اليومي</string>
+    <string name="title_2">اقرأ القرآن وتعلم السور الآن</string>
+    <string name="get_started">البدء</string>
+    <string name="mus_haf">المصحف</string>
+    <string name="prayers">الصلاة</string>
+    <string name="surah">سورة</string>
+    <string name="juz">جزء</string>
+    <string name="my_list">قائمتي</string>
+    <string name="resume_last_surah">آخر سورة تم تحديدها</string>
+    <string name="basmala">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</string>
+    <string name="not_connected">الجهاز غير متصل بالإنترنت</string>
+    <string name="dialog_add">هل تريد إضافة هذه السورة إلى قائمتك؟</string>
+    <string name="dialog_delete">هل تريد حذف هذه السورة من قائمتك؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="next_prayer">الصلاة عماد الدين</string>
+    <string name="prayer_times">أوقات الصلاة</string>
+    <string name="light_mode">تغير الوضع</string>
+    <string name="sound">الاستماع</string>
+    <string name="azkar">الأذكار</string>
+    <string name="not_application_found">لا يوجد تطبيق يلبي متطلبات هذه العملية</string>
+</resources>

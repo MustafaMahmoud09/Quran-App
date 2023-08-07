@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white_ayah">#FFFFFF</color>
+    <color name="theme_app">#6980C4</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="title_color">#B3BABD</color>
+    <color name="theme_btn">#71DFE0</color>
+    <color name="move_light">#E4E8F4</color>
+    <color name="color_card_light">#C620A5A5</color>
+    <color name="theme_view_card">#BE15389C</color>
+    <color name="blue">#273E83</color>
+    <color name="color_next_prayer">#55AAB6</color>
+    <color name="view_prayer_next_color">#6980C4</color>
+    <color name="view_big_prayers">#D0F5F5</color>
+    <color name="color_item_prayer">#F1F4FA</color>
+</resources>

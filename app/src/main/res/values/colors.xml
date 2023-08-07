@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white_ayah">#06291D</color>
+    <color name="theme_app">#FFFFFF</color>
+    <color name="theme_app_shape_circle">#063A29</color>
+    <color name="theme_btn_shape_circle">#71DFE0</color>
+    <color name="theme_app_file_theme">#031F16</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#031F16</color>
+    <color name="taxt_surah_title_color">#FFFFFF</color>
+    <color name="title_color">#B3BABD</color>
+    <color name="theme_btn">#55AAB6</color>
+    <color name="move_light">#073940</color>
+    <color name="color_card_light">#C620A5A5</color>
+    <color name="theme_view_card">#CD225324</color>
+    <color name="blue">#FFFFFF</color>
+    <color name="theme_app_file_theme_drawer">#031F16</color>
+    <color name="text_name_prayer_color">#FFFFFF</color>
+    <color name="color_next_prayer">#FFFFFF</color>
+    <color name="view_prayer_next_color">#06291D</color>
+    <color name="view_big_prayers">#06291D</color>
+    <color name="color_item_prayer">#F1F4FA</color>
+    <color name="color_end_view_next_prayer">#06291D</color>
+    <color name="color_end">#06291D</color>
+    <color name="yellow">#3A2E08</color>
+    <color name="color_div_sound">#06291D</color>
+</resources>

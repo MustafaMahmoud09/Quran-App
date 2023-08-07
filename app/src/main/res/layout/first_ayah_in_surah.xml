@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_6sdp"
+    app:cardCornerRadius="@dimen/margin16"
+    android:layout_marginHorizontal="@dimen/_6sdp"
+    android:layout_marginTop="@dimen/_6sdp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/first_ayah_image"
+        >
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_view_card"
+            />
+
+        <TextView
+            android:id="@+id/arabicNameSurahInJuzId"
+            style="@style/textNameSurahArabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <TextView
+            android:id="@+id/englishNameTranslateSurahInJuzId"
+            style="@style/textNameSurahEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="The Opining"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/arabicNameSurahInJuzId" />
+
+        <View
+            android:id="@id/view2"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/margin1"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@color/taxt_surah_title_color"
+            app:layout_constraintEnd_toEndOf="@id/guideV85"
+            app:layout_constraintStart_toStartOf="@id/guideV15"
+            app:layout_constraintTop_toBottomOf="@+id/englishNameTranslateSurahInJuzId" />
+
+        <TextView
+            android:id="@+id/basmalaJuzId"
+            style="@style/besmalahText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:gravity="center"
+            android:text="@string/basmala"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideV85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".85" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        android:layout_marginHorizontal="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_19sdp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_ayah"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_marginTop="@dimen/_12sdp"
+                android:id="@+id/saveInJuz"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:paddingVertical="@dimen/_3sdp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/save"
+                app:tint="@color/theme_app"
+                android:layout_marginRight="@dimen/_3sdp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/soundInJuzBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/zero"
+                android:foregroundGravity="center"
+                android:layout_marginRight="@dimen/_3sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/saveInJuz"
+                app:layout_constraintRight_toLeftOf="@+id/saveInJuz"
+                app:layout_constraintTop_toTopOf="@+id/saveInJuz"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/start"
+                app:tint="@color/theme_app" />
+
+            <TextView
+                android:id="@+id/numberAyahSurahInJuzId"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/taxt_surah_title_color"
+                android:gravity="center"
+                android:background="@drawable/circle"
+                app:layout_constraintDimensionRatio="1:1"
+                android:layout_marginLeft="@dimen/_6sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/soundInJuzBtn"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/soundInJuzBtn" />
+
+            <TextView
+                android:id="@+id/ayahInSurahInJuzArabic"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginHorizontal="@dimen/_6sdp"
+                style="@style/ayahInSurah.arabic"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/soundInJuzBtn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/_34sdp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_marginHorizontal="@dimen/_6sdp"
+    android:layout_marginVertical="@dimen/_3sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_3sdp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/parentSurahTitleItemId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_ayah"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnStartSoundId"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        app:layout_constraintDimensionRatio="1:1"
+        android:padding="@dimen/_6sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/nameSoundEnglishTranslateId"
+        app:layout_constraintTop_toTopOf="@+id/nameSoundEnglishId"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:textColor="@color/theme_btn"
+        style="@style/text.blue"
+        android:background="@drawable/circle"
+        android:src="@drawable/start"
+        android:tint="@color/taxt_surah_title_color"
+        />
+
+    <TextView
+        android:id="@+id/nameSoundEnglishTranslateId"
+        android:textSize="@dimen/_11sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:textColor="@color/title_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/nameSoundEnglishId"
+        app:layout_constraintTop_toBottomOf="@+id/nameSoundEnglishId" />
+
+    <TextView
+        android:id="@+id/nameSoundEnglishId"
+        style="@style/text.black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        app:layout_constraintLeft_toRightOf="@+id/btnStartSoundId"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameSoundArabicSurah"
+        style="@style/text.blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/nameSoundEnglishTranslateId"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nameSoundEnglishId"
+        android:layout_marginRight="@dimen/_6sdp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

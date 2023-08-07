@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentZekId"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_3sdp"
+    android:layout_margin="@dimen/_6sdp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_ayah"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginTop="@dimen/margin16"
+            android:id="@+id/shareBtn"
+            android:visibility="invisible"
+            android:layout_width="@dimen/_25sdp"
+            android:paddingVertical="@dimen/_4sdp"
+            android:layout_height="@dimen/_25sdp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_share_24"
+            app:tint="@color/theme_app"
+            android:layout_marginRight="@dimen/margin4"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/soundBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/zero"
+            android:foregroundGravity="center"
+            android:visibility="invisible"
+            android:layout_marginRight="@dimen/margin4"
+            app:layout_constraintBottom_toBottomOf="@+id/shareBtn"
+            app:layout_constraintRight_toLeftOf="@+id/shareBtn"
+            app:layout_constraintTop_toTopOf="@+id/shareBtn"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/start"
+            app:tint="@color/theme_app" />
+
+        <TextView
+            android:id="@+id/numberZekrId"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/zero"
+            android:layout_marginTop="@dimen/margin16"
+            android:layout_marginLeft="@dimen/margin8"
+            android:background="@drawable/circle"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textColor="@color/taxt_surah_title_color"
+            app:layout_constraintBottom_toBottomOf="@+id/soundBtn"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/zekrTextId"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginHorizontal="@dimen/margin8"
+            style="@style/ayahInSurah.arabic"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberZekrId"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/_34sdp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

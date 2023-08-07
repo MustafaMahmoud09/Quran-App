@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/mushafId"
+    android:title="@string/mus_haf"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    />
+<item
+    android:id="@+id/soundId"
+    android:title="@string/sound"
+    android:icon="@drawable/ic_baseline_surround_sound_24"
+    />
+    <item
+        android:id="@+id/azkarId"
+         android:title="@string/azkar"
+        android:icon="@drawable/praying"
+        />
+<item
+    android:id="@+id/prayersId"
+    android:title="@string/prayers"
+    android:icon="@drawable/ic_baseline_mosque_24"
+    />
+</menu>
